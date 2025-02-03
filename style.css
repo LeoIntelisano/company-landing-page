@@ -6,19 +6,38 @@ body {
     flex-direction: column;
     margin: 0px;
     padding: 0px;
+    justify-content: center;
+}
+
+.header-container {
+    background-color: #1F2937;
+    padding: 0 40px;
 }
 
 .header{
-    background-color: #1F2937;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
+.header-about {
+    padding: 40px 0;
+}
+
+img {
+    width:480px; /* you can use % */
+    height: auto;
+}
+
+.header-about {
+    display: flex;
+    flex-direction: row;
+}
+
 .links {
     display: flex;
-    gap: 12px
+    gap: 12px;
 }
 
 ul {
